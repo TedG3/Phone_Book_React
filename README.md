@@ -1,6 +1,5 @@
 # React Project : Contact Manager
 <br>
-## Run the following commands : 
-<br>
-* npm install
-* npm start 
+ ## Run the following commands : <br>
+ * npm install
+ * npm start 
