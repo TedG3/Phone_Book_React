@@ -1,5 +1,4 @@
 import React from "react";
-
 const ContactList = (props) => {
     const renderContactList=props.contacts.map((contact)=>{
         return (
@@ -20,5 +19,10 @@ const ContactList = (props) => {
         </div>
     )
 };
+const ContactList = () => {
+    return (
+        <div className="ui celled list">Contact List</div>
 
+    )
+}
 export default ContactList;

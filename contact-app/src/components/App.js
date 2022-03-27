@@ -16,11 +16,16 @@ function App() {
       email:"efgh@gmail.com",
     }
   ];
+import './App.css';
+
+function App() {
+  const contacts=  
   return (
     <div className="ui container">
       <Header />
       <AddContact />
       <ContactList contacts={contacts}/> 
+      <ContactList />
     </div>
   );
 }
