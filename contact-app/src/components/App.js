@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import AddContact from "./AddContact";
 import ContactList from "./ContactList";
+export default App;
 function App() {
   const contacts= [
     {
@@ -15,18 +16,15 @@ function App() {
       name:"Andrew",
       email:"efgh@gmail.com",
     }
-  ];
-import './App.css';
+  ]};
 
 function App() {
-  const contacts=  
-  return (
+  return(  
     <div className="ui container">
       <Header />
       <AddContact />
       <ContactList contacts={contacts}/> 
       <ContactList />
     </div>
-  );
-}
-export default App;
+  )}
+
