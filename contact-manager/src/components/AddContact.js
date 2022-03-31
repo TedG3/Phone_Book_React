@@ -2,19 +2,19 @@ import React from "react";
 
 class AddContact extends React.Component {
   state = {
-    fname: "",
-    lname: "",
+    name: "",
+    lastname:"",
     email: "",
   };
 
   add = (e) => {
     e.preventDefault();
-    if (this.state.fname === "" || this.state.lname ==="" || this.state.email ==="" ) {
-      alert("Fill First Name");
+    if (this.state.name === "" ||this.state.lastname ==="" ||this.state.email === "") {
+      alert("Fill all fields");
       return;
     }
     this.props.addContactHandler(this.state);
-    this.setState({ fname: "", lname:"", email: "" });
+    this.setState({ name: "",lastname:"", email: "" });
   };
   render() {
     return (
@@ -25,9 +25,9 @@ class AddContact extends React.Component {
             <label>Name</label>
             <input
               type="text"
-              name="fname"
-              placeholder="First Name"
-              value={this.state.fname}
+              name="name"
+              placeholder="Name"
+              value={this.state.name}
               onChange={(e) => this.setState({ name: e.target.value })}
             />
           </div>
@@ -35,9 +35,9 @@ class AddContact extends React.Component {
             <label>Last Name</label>
             <input
               type="text"
-              name="lname"
+              name="lastname"
               placeholder="Last Name"
-              value={this.state.lname}
+              value={this.state.name}
               onChange={(e) => this.setState({ name: e.target.value })}
             />
           </div>
