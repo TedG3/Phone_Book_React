@@ -2,18 +2,19 @@ import React from "react";
 
 class AddContact extends React.Component {
   state = {
-    name: "",
+    fname: "",
+    lname: "",
     email: "",
   };
 
   add = (e) => {
     e.preventDefault();
-    if (this.state.name === "" || this.state.email === "") {
-      alert("Fill all fields");
+    if (this.state.fname === "" || this.state.lname ==="" || this.state.email ==="" ) {
+      alert("Fill First Name");
       return;
     }
     this.props.addContactHandler(this.state);
-    this.setState({ name: "", email: "" });
+    this.setState({ fname: "", lname:"", email: "" });
   };
   render() {
     return (
@@ -24,9 +25,19 @@ class AddContact extends React.Component {
             <label>Name</label>
             <input
               type="text"
-              name="name"
-              placeholder="Name"
-              value={this.state.name}
+              name="fname"
+              placeholder="First Name"
+              value={this.state.fname}
+              onChange={(e) => this.setState({ name: e.target.value })}
+            />
+          </div>
+          <div className="field">
+            <label>Last Name</label>
+            <input
+              type="text"
+              name="lname"
+              placeholder="Last Name"
+              value={this.state.lname}
               onChange={(e) => this.setState({ name: e.target.value })}
             />
           </div>
