@@ -37,7 +37,7 @@ class AddContact extends React.Component {
               type="text"
               name="lastname"
               placeholder="Last Name"
-              value={this.state.name}
+              value={this.state.lastname}
               onChange={(e) => this.setState({ name: e.target.value })}
             />
           </div>
