@@ -1,4 +1,4 @@
-# React Project : Contact Manager
+# React Project : Phone Directory application
 ## Run the following commands in terminal: <br>
 - npm install <br>
 - npm start 
