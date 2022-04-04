@@ -1,0 +1,23 @@
+#nav_div{
+    text-align: center;
+    position: sticky;
+    top:0;
+    height: 50px;
+    width: 100%;
+    
+}
+.button {
+    background-color: #00a591; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 25%;
+  }
+button:hover {
+    background-color: #111;}
+
