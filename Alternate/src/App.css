@@ -1,3 +1,12 @@
+body {
+  background-color: #D4F7EC;
+}
+#title_div{
+  background-color: #FB8604;
+}
+#title {
+  text-align: center;
+  color: #090934;}
 #nav_div{
     text-align: center;
     position: sticky;
@@ -7,9 +16,9 @@
     
 }
 .button {
-    background-color: #00a591; 
+    background-color: #2E2FE3; 
     border: none;
-    color: white;
+    color: #090934;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -19,5 +28,5 @@
     width: 25%;
   }
 button:hover {
-    background-color: #111;}
+    background-color: #448D76;}
 
