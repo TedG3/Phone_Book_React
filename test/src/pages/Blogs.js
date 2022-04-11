@@ -4,11 +4,11 @@ const element =(<>
     <div className="formdiv">
   <form>
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
+    <input type="text" id="fname" name="firstname" placeholder="First name.."></input>
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.."></input>
+    <input type="text" id="lname" name="lastname" placeholder="Last name.."></input>
     <label for="pnum">Phone Number</label>
-    <input type="number" id="pnum" name="phonenumber" placeholder="Your phone number.."></input>
+    <input type="number" id="pnum" name="phonenumber" placeholder="Phone number.."></input>
     </form>
     <button className="in_but">Add Contact</button>
     </div>
