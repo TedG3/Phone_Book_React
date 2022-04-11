@@ -4,17 +4,11 @@ const Layout = () => {
   return (
     <>
       <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Add Contact</Link>
-          </li>
-          <li>
-            <Link to="/contact">Search</Link>
-          </li>
-        </ul>
+      <div id='nav_div'>
+      <Link to="/"><button className="button start">Home</button></Link>
+      <Link to="/blogs"><button className ="button" >Add Contact</button></Link>
+      <Link className="link" to="/contact"><button className ="button end">Search</button></Link>
+        </div>
       </nav>
 
       <Outlet />
@@ -22,4 +16,5 @@ const Layout = () => {
   )
 };
 
-export default Layout; 
+export default Layout;
+
