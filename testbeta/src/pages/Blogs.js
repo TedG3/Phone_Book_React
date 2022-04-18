@@ -1,5 +1,6 @@
 import "./Blogs.css"
-const element =(<>
+const Blogs = () => {
+  return (<>
     <h1>New Contact</h1>
     <div className="formdiv">
   <form name="myForm" action="/AddContact.php" onsubmit="return ()" method="post">
@@ -12,9 +13,7 @@ const element =(<>
   </form>
     <button className="in_but">Add Contact</button>
     </div>
-</>)
-const Blogs = () => {
-    return element;
-  };
+</>)}
+
   
   export default Blogs;
