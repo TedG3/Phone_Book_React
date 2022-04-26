@@ -4,7 +4,7 @@
 **npm install axios** in ..Phone_Book_React/react-app/phone-book (To send HTTP requests to REST endpoints) <br>
  
 Open a new terminal window and type the following commands: <br>
-**npm install json-server**, followed by **npm start** in ..Phone_Book_React/react-app/server-api (Starts the JSON server) <br>
+**npm install json-server**,**npm start** in ..Phone_Book_React/react-app/server-api (Starts the JSON server) <br>
 
 Go back to the previous window and type the following command: <br>
 **npm start** in ..Phone_Book_React/react-app/phone-book (Starts the development server)
